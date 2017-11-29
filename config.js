@@ -13,7 +13,7 @@ module.exports = {
 	// Admin app settings
 	admin_app: {
 		desc: "ScheduleBot admin commands",
-		prefix: "testbot-admin"
+		prefix: "-testbot-admin"
 	},
 
 	// The master channel

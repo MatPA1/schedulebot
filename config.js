@@ -2,18 +2,18 @@ module.exports = {
 
 	// Your bot name. Typically, this is your bot's username without the discriminator.
 	// i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
-	name: "ScheduleBot",
+	name: "testbot",
 
 	// The bot's command prefix. The bot will recognize as command any message that begins with it.
 	// i.e: "-schedulebot foo" will trigger the command "foo",
 	//      whereas "ScheduleBot foo" will do nothing at all.
-	prefix:  "-schedulebot", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
+	prefix:  "-testbot", // Tip: If you use "<@YOUR_BOT_USER_ID>", you can have the prefix
 	                         // be a mention to your bot.
 
 	// Admin app settings
 	admin_app: {
 		desc: "ScheduleBot admin commands",
-		prefix: "schedulebot-admin"
+		prefix: "testbot-admin"
 	},
 
 	// The master channel
